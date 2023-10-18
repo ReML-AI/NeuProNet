@@ -39,12 +39,12 @@ fairseq-hydra-train task.data=$DATA_PATH task.profiling=True --config-dir exampl
 
 ## Evaluation
 
-For models trained on VocalSound
+For evaluating models trained on VocalSound:
 ```
 fairseq-validate --path $TRAINED_MODEL_PATH --task audio_finetuning $DATA_PATH --valid-subset test --batch-size 128
 ```
 
-With NeuProNet:
+For evaluating models trained on UrbanSound8k:
 ```
 fairseq-validate --path $TRAINED_MODEL_PATH --task audio_finetuning $DATA_PATH --valid-subset valid --batch-size 512
 ```
