@@ -10,7 +10,7 @@ This implementation is based on the [fairseq toolkit](https://github.com/faceboo
 Our main source code was written in the following directory:
 + [Spectrum Data Loader](fairseq/data)
 + [NeuProNet framework and backbones implementation](fairseq/models/NeuProNet)
-+ [NeuProNet loss function](fairseq/criterions/NeuProNet_criterion)
++ [NeuProNet loss function](fairseq/criterions/NeuProNet_criterion.py)
 + [Configuration files for training baselines with or without NeuProNet](examples/NeuProNet)
 
 ## Requirements and Installation
